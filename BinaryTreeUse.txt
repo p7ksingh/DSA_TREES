@@ -118,6 +118,8 @@ public class BinaryTreeUse{
         printTreeDetailed(root);
         System.out.println("Num nodes "+numNodes(root));
         System.out.println("Largest is " + largest(root));
+System.out.println("Print at depth k");
+printAtDepthK(root,2);
 
     }
 }
